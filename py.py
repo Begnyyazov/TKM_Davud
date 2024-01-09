@@ -7,6 +7,7 @@ class Restaurant():
     def describe_restaurant(self): #создаём метод
         print(f'{self.name} {self.type}') 
 
+
 #Создаём экземпляр
 my_restaurant = Restaurant('Hrustal, Italia')
 print(f'Welcome to {my_restaurant.name} in {my_restaurant.country}')   
